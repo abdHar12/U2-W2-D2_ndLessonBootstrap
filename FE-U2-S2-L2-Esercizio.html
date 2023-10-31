@@ -10,20 +10,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
-      #custom > .col-66 {
-        width: 66%;
-      }
-      #custom > .col-33 {
-        width: 33%;
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-xl bg-body-secondary">
       <div class="container">
         <img
-          style="height: 50px"
+          style="height: 40px"
           src="./evelin-r-travel-agency-logo.png"
           alt="logo"
         />
@@ -93,8 +85,20 @@
           </div>
         </div>
       </div>
-      <h2 class="fw-bold mt-5">Saldi</h2>
-      <div class="row">
+      <div class="d-flex flex-row align-items-baseline">
+        <h2 class="fw-bold mt-5">Saldi</h2>
+        <a
+          class="text-info text-decoration-none ms-auto"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseSection1"
+          role="button"
+          aria-expanded="false"
+          controls="collapseSection1"
+        >
+          Nascondi sezione
+        </a>
+      </div>
+      <div class="row collapse-vertical collapse show" id="collapseSection1">
         <div class="col-6 col-md-4 col-xl-3 mt-3">
           <div class="card border-3 border-info">
             <img
@@ -165,8 +169,20 @@
         </div>
       </div>
 
-      <h2 class="fw-bold mt-5">Welcome Summer</h2>
-      <div class="row">
+      <div class="d-flex flex-row align-items-baseline">
+        <h2 class="fw-bold mt-5">Welcome summer</h2>
+
+        <a
+          class="text-info text-decoration-none ms-auto"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseSection2"
+          aria-expanded="false"
+          controls="collapseSection2"
+        >
+          Nascondi sezione
+        </a>
+      </div>
+      <div class="row collapse-vertical collapse show" id="collapseSection2">
         <div class="col-6 col-md-6 col-xl-4 col-xxl-2 mt-3">
           <div class="card shadow bg-body-secondary-rounded">
             <img
@@ -267,156 +283,185 @@
               </p>
               <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-md-block">
+        <div class="d-flex flex-row align-items-baseline">
+          <h2 class="fw-bold mt-5">Offerta del giorno</h2>
+
+          <a
+            class="text-info text-decoration-none ms-auto"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseSection3"
+            aria-expanded="false"
+            controls="collapseSection3"
+          >
+            Nascondi sezione
+          </a>
+        </div>
+        <div class="row collapse-vertical collapse show" id="collapseSection3">
+          <div class="col-8">
+            <img
+              class="card shadow bg-body-secondary-rounded"
+              style="width: 100%"
+              src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="photo of place"
+            />
+          </div>
+          <div class="col-4">
+            <h2 class="display-5 fw-light">Fushifaru Maldives</h2>
+            <span>15.01.2021-31.01.2021</span>
+            <p class="mt-4">Ville a partire da 500€, non fartele sfuggire!</p>
+            <span class="badge rounded-pill text-bg-dark">Best offer</span>
           </div>
         </div>
       </div>
 
-      <h2 class="fw-bold mt-5">Welcome Summer</h2>
-      <div id="custom" class="row">
-        <div class="col-66">
+      <div class="d-flex flex-row align-items-baseline">
+        <h2 class="fw-bold mt-5">Last minutes</h2>
+
+        <a
+          class="text-info text-decoration-none ms-auto"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseSection4"
+          aria-expanded="false"
+          controls="collapseSection4"
+        >
+          Nascondi sezione
+        </a>
+      </div>
+      <div class="row collapse-vertical collapse show" id="collapseSection4">
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
           <img
+            class="card shadow bg-body-secondary-rounded"
             style="width: 100%"
             src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="photo of place"
           />
         </div>
-        <div class="col-33 flex-grow-1">
-          <h2 class="display-5 fw-light">Fushifaru Maldives</h2>
-          <span>15.01.2021-31.01.2021</span>
-          <p class="mt-4">Ville a partire da 500€, non fartele sfuggire!</p>
-          <span class="badge rounded-pill text-bg-dark">Best offer</span>
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
+          <img
+            class="card shadow bg-body-secondary-rounded"
+            style="width: 100%"
+            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of place"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
+          <img
+            class="card shadow bg-body-secondary-rounded"
+            style="width: 100%"
+            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of place"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
+          <img
+            class="card shadow bg-body-secondary-rounded"
+            style="width: 100%"
+            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of place"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
+          <img
+            class="card shadow bg-body-secondary-rounded"
+            style="width: 100%"
+            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of place"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-xl-2 mt-3">
+          <img
+            class="card shadow bg-body-secondary-rounded"
+            style="width: 100%"
+            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="photo of place"
+          />
         </div>
       </div>
-      <h2 class="fw-bold mt-5">Last minutes</h2>
+      <h2 class="fw-bold mt-5 text-center mb-5">Dicono di noi</h2>
       <div class="row">
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
+        <div
+          class="col-2 mb-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
+            style="
+              border-radius: 50%;
+              height: 50px;
+              object-fit: cover;
+              text-align: center;
+            "
+            src="./istockphoto-532237983-170667a.jpg"
+            alt="profile"
           />
         </div>
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
+        <div class="col-10 mb-2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
+            excepturi ipsum quisquam tempora veniam asperiores autem blanditiis
+            modi nemo fuga esse ratione deserunt? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis ut eaque delectus pariatur
+            tenetur consequatur excepturi aliquid culpa dolorem incidunt. Sit
+            expedita tempore ad rem at molestiae magnam doloribus aliquid.
+          </p>
+        </div>
+        <div
+          class="col-2 mb-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
+            style="
+              border-radius: 50%;
+              height: 50px;
+              object-fit: cover;
+              text-align: center;
+            "
+            src="./istockphoto-532237983-170667a.jpg"
+            alt="profile"
           />
         </div>
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
+        <div class="col-10 mb-2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
+            excepturi ipsum quisquam tempora veniam asperiores autem blanditiis
+            modi nemo fuga esse ratione deserunt? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis ut eaque delectus pariatur
+            tenetur consequatur excepturi aliquid culpa dolorem incidunt. Sit
+            expedita tempore ad rem at molestiae magnam doloribus aliquid.
+          </p>
+        </div>
+        <div
+          class="col-2 mb-2 d-flex align-items-center justify-content-center"
+        >
           <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
+            style="border-radius: 50%; height: 50px; object-fit: cover"
+            src="./istockphoto-532237983-170667a.jpg"
+            alt="profile"
           />
         </div>
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
-          <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
-          />
-        </div>
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
-          <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
-          />
-        </div>
-        <div class="col-6 col-md-4 col-xl-2 mt-3">
-          <img
-            style="width: 100%"
-            src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="photo of place"
-          />
-        </div>
-        <h2 class="fw-bold mt-5 text-center mb-5">Dicono di noi</h2>
-        <div class="row">
-          <div
-            class="col-2 mb-2 d-flex align-items-center justify-content-center"
-          >
-            <img
-              style="
-                width: 70%;
-                border-radius: 50%;
-                height: 80px;
-                object-fit: cover;
-                text-align: center;
-              "
-              src="./istockphoto-532237983-170667a.jpg"
-              alt="profile"
-            />
-          </div>
-          <div class="col-10 mb-2">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
-              excepturi ipsum quisquam tempora veniam asperiores autem
-              blanditiis modi nemo fuga esse ratione deserunt? Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Debitis ut eaque delectus
-              pariatur tenetur consequatur excepturi aliquid culpa dolorem
-              incidunt. Sit expedita tempore ad rem at molestiae magnam
-              doloribus aliquid.
-            </p>
-          </div>
-          <div
-            class="col-2 mb-2 d-flex align-items-center justify-content-center"
-          >
-            <img
-              style="
-                width: 70%;
-                border-radius: 50%;
-                height: 80px;
-                object-fit: cover;
-                text-align: center;
-              "
-              src="./istockphoto-532237983-170667a.jpg"
-              alt="profile"
-            />
-          </div>
-          <div class="col-10 mb-2">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
-              excepturi ipsum quisquam tempora veniam asperiores autem
-              blanditiis modi nemo fuga esse ratione deserunt? Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Debitis ut eaque delectus
-              pariatur tenetur consequatur excepturi aliquid culpa dolorem
-              incidunt. Sit expedita tempore ad rem at molestiae magnam
-              doloribus aliquid.
-            </p>
-          </div>
-          <div
-            class="col-2 mb-2 d-flex align-items-center justify-content-center"
-          >
-            <img
-              style="
-                width: 70%;
-                border-radius: 50%;
-                height: 80px;
-                object-fit: cover;
-              "
-              src="./istockphoto-532237983-170667a.jpg"
-              alt="profile"
-            />
-          </div>
-          <div class="col-10 mb-2">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
-              excepturi ipsum quisquam tempora veniam asperiores autem
-              blanditiis modi nemo fuga esse ratione deserunt? Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Debitis ut eaque delectus
-              pariatur tenetur consequatur excepturi aliquid culpa dolorem
-              incidunt. Sit expedita tempore ad rem at molestiae magnam
-              doloribus aliquid.
-            </p>
-          </div>
+        <div class="col-10 mb-2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            aliquam nulla consequuntur voluptatibus, numquam, accusantium ipsa
+            excepturi ipsum quisquam tempora veniam asperiores autem blanditiis
+            modi nemo fuga esse ratione deserunt? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Debitis ut eaque delectus pariatur
+            tenetur consequatur excepturi aliquid culpa dolorem incidunt. Sit
+            expedita tempore ad rem at molestiae magnam doloribus aliquid.
+          </p>
         </div>
       </div>
     </div>
+    <footer class="mt-5 p-5 text-center bg-dark text-white">
+      <button type="button" class="btn border border-secondary text-secondary">
+        Contattaci
+      </button>
 
+      <p class="mt-5">&copy;2021 Kalina Travel LTD. All Rights Reserved</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
